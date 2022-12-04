@@ -1,0 +1,43 @@
+
+for x in range(2, 10, 2):
+    print(x)
+for x in range(2, 14):
+    print(x)
+for x in range(1, 9):
+    print(x)
+
+
+def my_function():
+    print('hello from a function')
+    my_function()
+
+
+    # 5667
+    # add items
+thisdict1 = {
+    "brand": "ford",
+    "model": "678",
+    "year": "1778",
+}
+thisdict1["year"] = 2018
+thisdict1.update({"brand": 'andi'})
+print(thisdict1)
+# ADD ITMES'
+thisdict = {
+    'brand': 'ford',
+    'model': 'mustang',
+    'year': '1897'
+}
+thisdict.update({'color': 'red'})
+print(thisdict)
+# rEMove items
+thisdict = {
+    'brand': 'marutyhi',
+    'model': 'mi8989',
+    'year': '1898'
+}
+print(thisdict)
+thisdict.pop('model')
+print(thisdict)
+thisdict.clear()
+print(thisdict)
